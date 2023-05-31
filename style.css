@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+:root {
+  --green: #3eb6a0;
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.one-time-nav {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.one-time-nav-border {
+  border: 2px solid var(--green);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.one-time-text {
+  font-size: 0.85rem;
+}
+
+.skip-text {
+  position: absolute;
+  right: 1rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.special-offer-text {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.fifty-text {
+  font-size: 3rem;
+  color: var(--green);
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.unlimited-text {
+  font-size: 0.85rem;
+  color: var(--white);
+  margin-top: 4px;
+}
+
+.your-offer {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 8px;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#hour-box,
+#minute-box,
+#second-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.two-dots {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.features-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 20px;
+  width: 16.5rem;
+  height: 7.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.feature-1,
+.feature-2,
+.feature-3 {
+  display: flex;
+  gap: 1rem;
+}
+
+.fa-check {
+  color: var(--green);
+  font-size: 1.25rem;
+}
+
+.unlimited-questions-text,
+.higher-words-text,
+.most-advanced-text {
+  font-size: 0.75rem;
+  color: var(--white);
+}
+
+.price-text {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.old-price-text {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.65rem;
+  text-decoration: line-through;
+}
+
+.new-price-text {
+  color: var(--white);
+  font-size: 0.65rem;
+}
+
+#button {
+  padding: 0.75rem 5.75rem;
+  border-radius: 5px;
+  background-color: var(--green);
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+#button:active {
+  transform: scale(0.98);
+}

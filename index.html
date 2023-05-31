@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Special Offer</title>
+  </head>
+  <body>
+    <main>
+      <img src="./image/logo.svg" class="logo" alt="oochi logo" />
+      <div class="one-time-nav">
+        <div class="one-time-nav-border">
+          <p class="one-time-text">One-time Only</p>
+        </div>
+        <span class="skip-text">Skip</span>
+      </div>
+
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player
+        class="lottie"
+        src="https://assets8.lottiefiles.com/packages/lf20_qjws9zye.json"
+        background="transparent"
+        speed="1"
+        style="width: 200px; height: 200px"
+        loop
+        autoplay
+      ></lottie-player>
+      <span class="special-offer-text">Special Offer</span>
+      <span class="fifty-text">50% OFF</span>
+      <span class="unlimited-text">Unlimited access, lower price</span>
+      <span class="your-offer">Your offer expires in</span>
+      <div class="boxes">
+        <div id="hour-box"></div>
+        <span class="two-dots">:</span>
+        <div id="minute-box"></div>
+        <span class="two-dots">:</span>
+        <div id="second-box"></div>
+      </div>
+      <div class="features-box">
+        <div class="feature-1">
+          <i class="fa-solid fa-check"></i
+          ><span class="unlimited-questions-text">Unlimited Books Summary</span>
+        </div>
+        <div class="feature-2">
+          <i class="fa-solid fa-check"></i
+          ><span class="higher-words-text">All Audio Books Available</span>
+        </div>
+        <div class="feature-3">
+          <i class="fa-solid fa-check"></i
+          ><span class="most-advanced-text">Unlimited Notes & Highlights</span>
+        </div>
+      </div>
+      <span class="price-text">
+        <p class="old-price-text">$9.99</p>
+        <p class="new-price-text">-$4.99/month. Cancel anytime.</p>
+      </span>
+      <input type="button" value="Grab This Deal" id="button" />
+    </main>
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
