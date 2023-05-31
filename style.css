@@ -32,7 +32,7 @@ main {
   display: flex;
   align-items: center;
   color: var(--white);
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .one-time-nav-border {
@@ -53,11 +53,17 @@ main {
   cursor: pointer;
 }
 
+.gift {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .special-offer-text {
   color: var(--white);
   font-size: 1.5rem;
   font-weight: 700;
 }
+
 .fifty-text {
   font-size: 3rem;
   color: var(--green);
